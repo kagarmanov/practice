@@ -148,3 +148,48 @@ margin: 10px;
 padding: 10px;
 }
 
+.hotels-container{
+display:grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hotel{
+display: grid;
+grid-template-rows: 1fr 1fr;
+background-color: white;
+border-radius: 25px;
+width: 420px;
+margin-bottom: 4%;
+}
+
+.hot{
+width: 420px;
+}
+
+.hotel-text{
+padding: 45px;
+}
+
+.hotel-text b{
+font-size: 20px;
+}
+
+.rate{
+height: 25px;
+}
+
+.btn-hotel{
+width:40%;
+height: 50px;
+background: none;
+border-radius: 15px;
+border: #ffb833 1px solid;
+color: #ffb833;
+}
+
+.btn-hotel:hover{
+    color: white;
+    transition: 1s;
+    background-color:#ffb833; 
+    cursor: pointer;
+}
