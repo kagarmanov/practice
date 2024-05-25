@@ -25,7 +25,7 @@ color: #ffb833;
 }
 
 .head-div{
-    width: 500px;
+width: 500px;
 display: flex;
 align-items: center;
 justify-content: space-between;
@@ -349,4 +349,164 @@ footer img{
 display: grid;
 grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 margin-left: 90%;
+}
+
+@media screen and (max-width:768px){
+h1{
+font-size: 16px;
+}
+
+body{
+margin-right: 0%;
+margin-left: 0%;
+width: 100%;
+}
+header{
+width: 100%;
+font-size: 12px;
+}
+
+header img{
+width: 150px;
+}
+
+.head-div{
+width: 270px;
+}
+
+.nav-contain{
+font-size: 10px;
+height: 50px;
+}
+.btn-tour{
+height: 30px;
+width: 50px;
+font-size: 10px;
+margin-left: 0%;
+}
+
+.btn-contacts{
+margin-left: 0%;
+height: 30px;
+width: 50px;
+font-size: 8px;
+}
+
+.prom-img-1{
+width: 170px;
+height: 100px;
+}
+.prom-img-2{
+margin-left: 40%;
+width: 200px;
+height: 205px;
+}
+
+.promotions-1{
+width: 100px;
+height: 50px;
+}
+.promotions-container{
+    height: 220px;
+    width: 160px;
+    margin-left: 0;
+}
+.text-onas{
+font-size: 12px;
+}
+
+.service{
+font-size: 10px;
+width: 200px;
+height: 220px;
+}
+.service-text b{
+font-size: 12px;
+}
+
+.service img{
+width: 200px;
+height: 80px;
+}
+.advantages{
+font-size: 10px;
+}
+
+.advantages-contain{
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+.advantages img{
+width: 60px;
+height: 50px;
+}
+
+.hotel-text{
+padding: 10px;
+}
+.hot{
+width: 390px;
+}
+.hotel{
+width: 390px;
+}
+.hotels-container{
+display: grid;
+grid-template-columns: 1fr ;
+}
+
+.poisk-container{
+width: 360px;
+padding: 15px;
+display: grid;
+grid-template-columns: 1fr 1fr ;
+}
+.poisk{
+border-bottom: 1px solid rgb(194, 190, 190);
+}
+
+.text-contact-1{
+font-size:10px;
+}
+
+.text-contact{
+    font-size:10px;
+}
+.text-contact-2{
+    font-size:10px;
+}
+.text-contact-3{
+    font-size:10px;
+}
+
+.contact-contain img{
+width: 200px;
+height: 200px;
+}
+.contact-contain{
+padding: 5px;
+}
+
+.contact-contain b{
+    font-size: 12px;
+}
+
+footer{
+padding: 10px;
+width: 390px;
+height: 250px;
+}
+.text-footer-1{
+font-size: 10px;
+}
+.text-footer-2{
+font-size: 10px;
+}
+.socnetw{
+margin-left: 50%;
+}
+.btn-to-header{
+top: 87%;
+left: 80%;
+}
 }
